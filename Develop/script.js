@@ -1,5 +1,18 @@
-let currentDate = new Date();
-let time = currentDate.getHours() + ":" + currentDate.getMinutes() + ":" + currentDate.getSeconds();
-console.log(time);
+// date in the header
+function getTodayDate() {
+var today = moment().format("dddd, MMMM Do");
+$("#currentDay").text(today);
+}
 
-let currentDay = currentDate.getDate(); + "," + currentDay.getMonth();
+// loads today's date
+getTodayDate();
+
+// local storage
+
+
+// save
+function save() {
+
+}
+
+// json 
