@@ -12,6 +12,9 @@ getTodayDate();
 
 // save
 function save() {
+    $(".saveBn").on("click", function() { 
+        
+    })
 
 }
 
