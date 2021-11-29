@@ -22,4 +22,4 @@
 * Moment.js
 
 ## Screenshot of Landing Page
-![Full page screenshot of Work Day Schedule](Develop/assets/images/landing-page.png)
+![Full page screenshot of Work Day Schedule](assets/images/landing-page.png)
