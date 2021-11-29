@@ -6,20 +6,20 @@
 ## Acceptance Criteria
 * GIVEN I am using a daily planner to create a schedule
 * WHEN I open the planner
-* THEN the current day is displayed at the top of the calendar *DONE*
+* THEN the current day is displayed at the top of the calendar
 * WHEN I scroll down
-* THEN I am presented with time blocks for standard business hours !INCOMPLETE
+* THEN I am presented with time blocks for standard business hours
 * WHEN I view the time blocks for that day
-* THEN each time block is color-coded to indicate whether it is in the past, present, or future !INCOMPLETE
+* THEN each time block is color-coded to indicate whether it is in the past, present, or future
 * WHEN I click into a time block
-* THEN I can enter an event !INCOMPLETE
+* THEN I can enter an event
 * WHEN I click the save button for that time block
-* THEN the text for that event is saved in local storage !INCOMPLETE
+* THEN the text for that event is saved in local storage
 * WHEN I refresh the page
-* THEN the saved events persist !INCOMPLETE
+* THEN the saved events persist
 
 ## Third Party Libraries
 * Moment.js
 
 ## Screenshot of Landing Page
-![Full page screenshot of Work Day Schedule](assets/images/screenshot-workday.png)
+![Full page screenshot of Work Day Schedule](assets/images/landing-page.png)
