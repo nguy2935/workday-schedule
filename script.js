@@ -19,8 +19,8 @@ $(document).ready(function(){
 
 })
 
-
-function trackTime() {
+function loadTimeBlock() {
+    // this gets the current time / hour 
     var currentTime = moment().hour();
     $(".time-block").each(function () {
         var blockTime = parseInt($(this).attr("id").split("hour")[1]);
@@ -58,4 +58,4 @@ $("#hour15 .description").val(localStorage.getItem("hour15"));
 $("#hour16 .description").val(localStorage.getItem("hour16"));
 $("#hour17 .description").val(localStorage.getItem("hour17"));
 
-trackTime();
+loadTimeBlock();
